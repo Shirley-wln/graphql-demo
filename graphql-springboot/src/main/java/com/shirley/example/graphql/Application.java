@@ -1,4 +1,4 @@
-package com.weilina.example.graphql;
+package com.shirley.example.graphql;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.weilina.example.graphql.resolver;
+package com.shirley.example.graphql.resolver;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 import com.coxautodev.graphql.tools.GraphQLQueryResolver;
 import com.google.common.collect.Lists;
-import com.weilina.example.graphql.commontypes.User;
-import com.weilina.example.graphql.repository.UserRepository;
+import com.shirley.example.graphql.repository.UserRepository;
+import com.shirley.graphql.commontypes.User;
 
 @Component
 public class UserQueryResolver implements GraphQLQueryResolver {

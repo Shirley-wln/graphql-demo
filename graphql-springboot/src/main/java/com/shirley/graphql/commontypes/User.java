@@ -1,4 +1,4 @@
-package com.weilina.example.graphql.commontypes;
+package com.shirley.graphql.commontypes;
 
 public class User {
 	public int id;

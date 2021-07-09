@@ -1,9 +1,9 @@
-package com.weilina.example.graphql.repository;
+package com.shirley.example.graphql.repository;
 
 import java.util.Map;
 
 import com.google.common.collect.Maps;
-import com.weilina.example.graphql.commontypes.User;
+import com.shirley.graphql.commontypes.User;
 
 public class UserRepository {
 

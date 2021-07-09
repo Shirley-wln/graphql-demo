@@ -1,11 +1,11 @@
-package com.weilina.example.graphql.resolver;
+package com.shirley.example.graphql.resolver;
 
 import org.springframework.stereotype.Component;
 
 import com.coxautodev.graphql.tools.GraphQLMutationResolver;
-import com.weilina.example.graphql.commontypes.Result;
-import com.weilina.example.graphql.commontypes.User;
-import com.weilina.example.graphql.repository.UserRepository;
+import com.shirley.example.graphql.repository.UserRepository;
+import com.shirley.graphql.commontypes.Result;
+import com.shirley.graphql.commontypes.User;
 
 @Component
 public class UserMutationResolver implements GraphQLMutationResolver {
