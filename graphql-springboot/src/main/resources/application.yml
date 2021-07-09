@@ -1,0 +1,10 @@
+graphql:
+  servlet:
+    enabled: true
+    mapping: /demo-graphql
+  tools:
+    schema-location-pattern: "schemas/*.graphqls"
+graphiql:
+  mapping: /graphiql
+  endpoint:
+    graphql: /demo-graphql
