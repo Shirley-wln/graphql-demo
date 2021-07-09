@@ -1,0 +1,15 @@
+schema {
+  query: QueryResource
+  mutation: MutationResource
+}
+
+type QueryResource {
+}
+
+type MutationResource {
+}
+
+type Result {
+	isSucceed: Boolean,
+	message: String
+}

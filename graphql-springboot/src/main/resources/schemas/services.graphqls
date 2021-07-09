@@ -1,0 +1,14 @@
+enum ServiceType {
+	restMap
+	restData
+}
+
+type Service {
+	name: String
+	type: ServiceType
+	address: String
+}
+
+extend type QueryResource {
+  services: [Service]
+}

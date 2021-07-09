@@ -10,7 +10,7 @@ import com.shirley.graphql.commontypes.User;
 @Component
 public class UserMutationResolver implements GraphQLMutationResolver {
 
-	public Result create(User user) {
+	public Result createUser(User user) {
 		Integer max = 0;
 		if (!UserRepository.users.isEmpty()) {
 			max = UserRepository.users.keySet().stream().reduce(Integer::max).get();

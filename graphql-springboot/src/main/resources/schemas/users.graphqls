@@ -1,0 +1,27 @@
+type User {
+    id: Int
+	name: String
+	age: Int
+	gender: GenderEnum
+}
+
+enum GenderEnum {
+	male
+	female
+}
+
+extend type QueryResource {
+   users: [User]
+   userById(id: ID): User
+}
+
+input UserInput {
+	name: String
+	password: String
+	age: Int
+	gender: GenderEnum
+}
+
+extend type MutationResource {
+	createUser(user: UserInput): Result
+}
